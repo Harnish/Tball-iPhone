@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8224ECF1346A22D00AE1629 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8224ECE1346A22D00AE1629 /* UIKit.framework */; };
+		D8224ED11346A22D00AE1629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8224ED01346A22D00AE1629 /* Foundation.framework */; };
+		D8224ED31346A22D00AE1629 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8224ED21346A22D00AE1629 /* CoreGraphics.framework */; };
+		D8224ED91346A22E00AE1629 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8224ED71346A22E00AE1629 /* InfoPlist.strings */; };
+		D8224EDC1346A22E00AE1629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8224EDB1346A22E00AE1629 /* main.m */; };
+		D8224EDF1346A22E00AE1629 /* TballCoachAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8224EDE1346A22E00AE1629 /* TballCoachAppDelegate.m */; };
+		D8224EE21346A22F00AE1629 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8224EE01346A22F00AE1629 /* MainWindow.xib */; };
+		D8224EE51346A22F00AE1629 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8224EE41346A22F00AE1629 /* FirstViewController.m */; };
+		D8224EE81346A22F00AE1629 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8224EE71346A22F00AE1629 /* SecondViewController.m */; };
+		D8224EEB1346A22F00AE1629 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8224EE91346A22F00AE1629 /* FirstView.xib */; };
+		D8224EEE1346A22F00AE1629 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8224EEC1346A22F00AE1629 /* SecondView.xib */; };
+		D8224EF51346A23000AE1629 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8224ECE1346A22D00AE1629 /* UIKit.framework */; };
+		D8224EF61346A23000AE1629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8224ED01346A22D00AE1629 /* Foundation.framework */; };
+		D8224EF71346A23000AE1629 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8224ED21346A22D00AE1629 /* CoreGraphics.framework */; };
+		D8224EFF1346A23000AE1629 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8224EFD1346A23000AE1629 /* InfoPlist.strings */; };
+		D8224F021346A23000AE1629 /* TballCoachTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D8224F011346A23000AE1629 /* TballCoachTests.h */; };
+		D8224F041346A23000AE1629 /* TballCoachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8224F031346A23000AE1629 /* TballCoachTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8224EF81346A23000AE1629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8224EC11346A22B00AE1629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8224EC91346A22D00AE1629;
+			remoteInfo = TballCoach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8224ECA1346A22D00AE1629 /* TballCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TballCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8224ECE1346A22D00AE1629 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8224ED01346A22D00AE1629 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8224ED21346A22D00AE1629 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8224ED61346A22E00AE1629 /* TballCoach-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TballCoach-Info.plist"; sourceTree = "<group>"; };
+		D8224ED81346A22E00AE1629 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8224EDA1346A22E00AE1629 /* TballCoach-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TballCoach-Prefix.pch"; sourceTree = "<group>"; };
+		D8224EDB1346A22E00AE1629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8224EDD1346A22E00AE1629 /* TballCoachAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TballCoachAppDelegate.h; sourceTree = "<group>"; };
+		D8224EDE1346A22E00AE1629 /* TballCoachAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TballCoachAppDelegate.m; sourceTree = "<group>"; };
+		D8224EE11346A22F00AE1629 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D8224EE31346A22F00AE1629 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D8224EE41346A22F00AE1629 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D8224EE61346A22F00AE1629 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D8224EE71346A22F00AE1629 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D8224EEA1346A22F00AE1629 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		D8224EED1346A22F00AE1629 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		D8224EF41346A23000AE1629 /* TballCoachTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TballCoachTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8224EFC1346A23000AE1629 /* TballCoachTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TballCoachTests-Info.plist"; sourceTree = "<group>"; };
+		D8224EFE1346A23000AE1629 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8224F001346A23000AE1629 /* TballCoachTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TballCoachTests-Prefix.pch"; sourceTree = "<group>"; };
+		D8224F011346A23000AE1629 /* TballCoachTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TballCoachTests.h; sourceTree = "<group>"; };
+		D8224F031346A23000AE1629 /* TballCoachTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TballCoachTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8224EC71346A22D00AE1629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8224ECF1346A22D00AE1629 /* UIKit.framework in Frameworks */,
+				D8224ED11346A22D00AE1629 /* Foundation.framework in Frameworks */,
+				D8224ED31346A22D00AE1629 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8224EF01346A23000AE1629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8224EF51346A23000AE1629 /* UIKit.framework in Frameworks */,
+				D8224EF61346A23000AE1629 /* Foundation.framework in Frameworks */,
+				D8224EF71346A23000AE1629 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8224EBF1346A22B00AE1629 = {
+			isa = PBXGroup;
+			children = (
+				D8224ED41346A22D00AE1629 /* TballCoach */,
+				D8224EFA1346A23000AE1629 /* TballCoachTests */,
+				D8224ECD1346A22D00AE1629 /* Frameworks */,
+				D8224ECB1346A22D00AE1629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8224ECB1346A22D00AE1629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8224ECA1346A22D00AE1629 /* TballCoach.app */,
+				D8224EF41346A23000AE1629 /* TballCoachTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8224ECD1346A22D00AE1629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8224ECE1346A22D00AE1629 /* UIKit.framework */,
+				D8224ED01346A22D00AE1629 /* Foundation.framework */,
+				D8224ED21346A22D00AE1629 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8224ED41346A22D00AE1629 /* TballCoach */ = {
+			isa = PBXGroup;
+			children = (
+				D8224EDD1346A22E00AE1629 /* TballCoachAppDelegate.h */,
+				D8224EDE1346A22E00AE1629 /* TballCoachAppDelegate.m */,
+				D8224EE01346A22F00AE1629 /* MainWindow.xib */,
+				D8224EE31346A22F00AE1629 /* FirstViewController.h */,
+				D8224EE41346A22F00AE1629 /* FirstViewController.m */,
+				D8224EE61346A22F00AE1629 /* SecondViewController.h */,
+				D8224EE71346A22F00AE1629 /* SecondViewController.m */,
+				D8224EE91346A22F00AE1629 /* FirstView.xib */,
+				D8224EEC1346A22F00AE1629 /* SecondView.xib */,
+				D8224ED51346A22D00AE1629 /* Supporting Files */,
+			);
+			path = TballCoach;
+			sourceTree = "<group>";
+		};
+		D8224ED51346A22D00AE1629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8224ED61346A22E00AE1629 /* TballCoach-Info.plist */,
+				D8224ED71346A22E00AE1629 /* InfoPlist.strings */,
+				D8224EDA1346A22E00AE1629 /* TballCoach-Prefix.pch */,
+				D8224EDB1346A22E00AE1629 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8224EFA1346A23000AE1629 /* TballCoachTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8224F011346A23000AE1629 /* TballCoachTests.h */,
+				D8224F031346A23000AE1629 /* TballCoachTests.m */,
+				D8224EFB1346A23000AE1629 /* Supporting Files */,
+			);
+			path = TballCoachTests;
+			sourceTree = "<group>";
+		};
+		D8224EFB1346A23000AE1629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8224EFC1346A23000AE1629 /* TballCoachTests-Info.plist */,
+				D8224EFD1346A23000AE1629 /* InfoPlist.strings */,
+				D8224F001346A23000AE1629 /* TballCoachTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8224EC91346A22D00AE1629 /* TballCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8224F071346A23000AE1629 /* Build configuration list for PBXNativeTarget "TballCoach" */;
+			buildPhases = (
+				D8224EC61346A22D00AE1629 /* Sources */,
+				D8224EC71346A22D00AE1629 /* Frameworks */,
+				D8224EC81346A22D00AE1629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TballCoach;
+			productName = TballCoach;
+			productReference = D8224ECA1346A22D00AE1629 /* TballCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8224EF31346A23000AE1629 /* TballCoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8224F0A1346A23000AE1629 /* Build configuration list for PBXNativeTarget "TballCoachTests" */;
+			buildPhases = (
+				D8224EEF1346A23000AE1629 /* Sources */,
+				D8224EF01346A23000AE1629 /* Frameworks */,
+				D8224EF11346A23000AE1629 /* Resources */,
+				D8224EF21346A23000AE1629 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8224EF91346A23000AE1629 /* PBXTargetDependency */,
+			);
+			name = TballCoachTests;
+			productName = TballCoachTests;
+			productReference = D8224EF41346A23000AE1629 /* TballCoachTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8224EC11346A22B00AE1629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Coder Joes";
+			};
+			buildConfigurationList = D8224EC41346A22B00AE1629 /* Build configuration list for PBXProject "TballCoach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8224EBF1346A22B00AE1629;
+			productRefGroup = D8224ECB1346A22D00AE1629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8224EC91346A22D00AE1629 /* TballCoach */,
+				D8224EF31346A23000AE1629 /* TballCoachTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8224EC81346A22D00AE1629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8224ED91346A22E00AE1629 /* InfoPlist.strings in Resources */,
+				D8224EE21346A22F00AE1629 /* MainWindow.xib in Resources */,
+				D8224EEB1346A22F00AE1629 /* FirstView.xib in Resources */,
+				D8224EEE1346A22F00AE1629 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8224EF11346A23000AE1629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8224EFF1346A23000AE1629 /* InfoPlist.strings in Resources */,
+				D8224F021346A23000AE1629 /* TballCoachTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8224EF21346A23000AE1629 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8224EC61346A22D00AE1629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8224EDC1346A22E00AE1629 /* main.m in Sources */,
+				D8224EDF1346A22E00AE1629 /* TballCoachAppDelegate.m in Sources */,
+				D8224EE51346A22F00AE1629 /* FirstViewController.m in Sources */,
+				D8224EE81346A22F00AE1629 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8224EEF1346A23000AE1629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8224F041346A23000AE1629 /* TballCoachTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8224EF91346A23000AE1629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8224EC91346A22D00AE1629 /* TballCoach */;
+			targetProxy = D8224EF81346A23000AE1629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8224ED71346A22E00AE1629 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8224ED81346A22E00AE1629 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8224EE01346A22F00AE1629 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8224EE11346A22F00AE1629 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D8224EE91346A22F00AE1629 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8224EEA1346A22F00AE1629 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		D8224EEC1346A22F00AE1629 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8224EED1346A22F00AE1629 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		D8224EFD1346A23000AE1629 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8224EFE1346A23000AE1629 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8224F051346A23000AE1629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8224F061346A23000AE1629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D8224F081346A23000AE1629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TballCoach/TballCoach-Prefix.pch";
+				INFOPLIST_FILE = "TballCoach/TballCoach-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8224F091346A23000AE1629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TballCoach/TballCoach-Prefix.pch";
+				INFOPLIST_FILE = "TballCoach/TballCoach-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8224F0B1346A23000AE1629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TballCoach.app/TballCoach";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TballCoachTests/TballCoachTests-Prefix.pch";
+				INFOPLIST_FILE = "TballCoachTests/TballCoachTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D8224F0C1346A23000AE1629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TballCoach.app/TballCoach";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TballCoachTests/TballCoachTests-Prefix.pch";
+				INFOPLIST_FILE = "TballCoachTests/TballCoachTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8224EC41346A22B00AE1629 /* Build configuration list for PBXProject "TballCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8224F051346A23000AE1629 /* Debug */,
+				D8224F061346A23000AE1629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8224F071346A23000AE1629 /* Build configuration list for PBXNativeTarget "TballCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8224F081346A23000AE1629 /* Debug */,
+				D8224F091346A23000AE1629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8224F0A1346A23000AE1629 /* Build configuration list for PBXNativeTarget "TballCoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8224F0B1346A23000AE1629 /* Debug */,
+				D8224F0C1346A23000AE1629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8224EC11346A22B00AE1629 /* Project object */;
+}
